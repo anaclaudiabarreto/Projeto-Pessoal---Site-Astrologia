@@ -1,0 +1,171 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+background: #FFFFFF;
+padding:  20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 240px;
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: navy;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: turquoise;
+	text-decoration: underline;
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	padding: 1em 2em;
+	background: linear-gradient(#023EA0, #00102A);
+
+}
+
+.principal p {
+	color:  turquoise;
+
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	color: paleturquoise;
+	}
+
+.observadores {
+	width: 30%;
+	float: left;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+p {
+	text-align: justify;
+}
+
+.tipos-de-mapas {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.tipos-de-mapas li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid navy;
+	border-radius: 10px;
+}
+
+.tipos-de-mapas li:hover {
+	border-color: turquoise;
+}
+
+.tipos-de-mapas li:active {
+	border-color: #088C19;
+}
+
+.tipos-de-mapas li:hover h2 {
+	font-size: 34px;
+	color: navy;
+}
+
+.tipos-de-mapas h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.imagens-tipos {
+	width: 200px;
+	border-radius: 20px;
+}
+
+form {
+	margin: 40px;
+}
+
+form label, form legend, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+/*#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color:  red;
+}*/

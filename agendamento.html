@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tipos de Mapas</title>
+		
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img class="logo" src="logo.jpg" alt="Logomarca Astrologia Esotérica"></h1>	
+				<nav>
+					<ul>
+						<li><a href="index.html">Página Principal</a></li>
+						<li><a href="tipos-de-mapas.html">Tipos de Mapas</a></li>
+						<li><a href="agendamento.html">Agendamento</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="datahora">Data e horário exato do nascimento</label>
+				<input type="datetime-local" id="datahora" class="input-padrao" required>
+
+				<label for="localnascimento">Cidade do nascimento</label>
+				<input type="text" id="localnascimento" class="input-padrao" required placeholder="Cidade, Estado, País">
+
+				<label for="email">Email</label>
+				<input type="text" name="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" name="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Por que você gostaria de conhecer seu Mapa Astral?</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere ser contatado?</legend>
+
+					<label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email">Email</label>
+					
+
+					<label for="radio-telegram"><input type="radio" value="telegram" name="contato" id="radio-telegram">Telegram</label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contato" id="radio-whatsapp">WhatsApp</label>
+					
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</main>
+
+		<footer>
+			<p class="copyright">&copy; Copyright Astrologia Esotérica - 2021</p>
+		</footer>
+		
+	</body>
+</html>
